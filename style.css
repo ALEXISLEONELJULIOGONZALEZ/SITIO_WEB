@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+#tareas input {
+    padding: 10px;
+    width: calc(100% - 100px);
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+#tareas button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+}
+
+#tareas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#tareas li {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tareas li.completada {
+    text-decoration: line-through;
+    color: gray;
+}
